@@ -1,0 +1,1015 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="roboskel_slopeground">
+    <static>true</static>
+
+    <link name="slope6_2">
+      <collision name="collision">
+        <pose>0 -18 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6_2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -18 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6_2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.07 0.05 1</ambient>
+          <diffuse>0.3 0.07 0.05 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope5_2">
+      <collision name="collision">
+        <pose>0 -16 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5_2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -16 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5_2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.6 0 1</ambient>
+          <diffuse>0.8 0.6 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope4_2">
+      <collision name="collision">
+        <pose>0 -14 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4_2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -14 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4_2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.2 0.8 0 1</ambient>
+          <diffuse>0.2 0.8 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope3_2">
+      <collision name="collision">
+        <pose>0 -12 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3_2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -12 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3_2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 0.8 1</ambient>
+          <diffuse>0 0 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope2_2">
+      <collision name="collision">
+        <pose>0 -10 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2_2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -10 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2_2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 0 0.5 1</ambient>
+          <diffuse>1 0 0.5 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope1_2">
+      <collision name="collision">
+        <pose>0 -8 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1_2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -8 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1_2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0 0 1</ambient>
+          <diffuse>0.8 0 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope6">
+      <collision name="collision">
+        <pose>0 -6 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -6 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0.7 0.8 1</ambient>
+          <diffuse>0 0.7 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope5">
+      <collision name="collision">
+        <pose>0 -4 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -4 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.4 0 0.8 1</ambient>
+          <diffuse>0.4 0 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope4">
+      <collision name="collision">
+        <pose>0 -2 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 -2 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.07 0.05 1</ambient>
+          <diffuse>0.3 0.07 0.05 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope3">
+      <collision name="collision">
+        <pose>0 0 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 0 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.6 0 1</ambient>
+          <diffuse>0.8 0.6 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope2">
+      <collision name="collision">
+        <pose>0 2 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 2 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.2 0.8 0 1</ambient>
+          <diffuse>0.2 0.8 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope1">
+      <collision name="collision">
+        <pose>0 4 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 4 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 0.8 1</ambient>
+          <diffuse>0 0 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope6_3">
+      <collision name="collision">
+        <pose>0 6 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6_3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 6 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6_3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 0 0.5 1</ambient>
+          <diffuse>1 0 0.5 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope5_3">
+      <collision name="collision">
+        <pose>0 8 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5_3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 8 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5_3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0 0 1</ambient>
+          <diffuse>0.8 0 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope4_3">
+      <collision name="collision">
+        <pose>0 10 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4_3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 10 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4_3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0.7 0.8 1</ambient>
+          <diffuse>0 0.7 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope3_3">
+      <collision name="collision">
+        <pose>0 12 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3_3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 12 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3_3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.4 0 0.8 1</ambient>
+          <diffuse>0.4 0 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope2_3">
+      <collision name="collision">
+        <pose>0 14 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2_3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 14 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2_3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope1_3">
+      <collision name="collision">
+        <pose>0 16 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1_3.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 16 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1_3.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope6_4">
+      <collision name="collision">
+        <pose>0 18 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6_4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 18 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope6_4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope5_4">
+      <collision name="collision">
+        <pose>0 20 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5_4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 20 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope5_4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope4_4">
+      <collision name="collision">
+        <pose>0 22 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4_4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 22 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope4_4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope3_4">
+      <collision name="collision">
+        <pose>0 24 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3_4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 24 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope3_4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope2_4">
+      <collision name="collision">
+        <pose>0 26 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2_4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 26 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope2_4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+    <link name="slope1_4">
+      <collision name="collision">
+        <pose>0 28 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1_4.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <pose>0 28 0.01 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://roboskel_slopeground/meshes/slope1_4.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <emissive>0 0 0 0</emissive>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>
