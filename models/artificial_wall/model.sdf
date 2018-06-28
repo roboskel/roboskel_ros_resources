@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="bed">
+  <model name="artificial_wall">
     <static>false</static>
     <link name="link">
       <collision name="collision">
