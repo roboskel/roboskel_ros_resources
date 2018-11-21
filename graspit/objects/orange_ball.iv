@@ -1,0 +1,16 @@
+#Inventor V2.1 ascii
+#material rubber
+#youngs 1500000
+#mass 100
+#cog 0 0 0
+
+Separator {
+    Transform { translation 0 0 0 }
+    Material {
+        ambientColor 1 0.3 0
+        diffuseColor 1 0.3 0
+        specularColor 1 0.3 0
+        shininess 0.5
+    }
+    Sphere { radius 30 }
+}
