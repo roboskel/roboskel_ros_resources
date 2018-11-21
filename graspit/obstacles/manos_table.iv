@@ -1,0 +1,60 @@
+#Inventor V2.1 ascii
+
+Separator {
+    Material {
+    ambientColor    0.3 0.3 0.3
+    diffuseColor    0.3 0.3 0.3
+    emissiveColor   0.0 0.0 0.0
+    }
+    Translation {
+    translation 0 0 430
+    }
+    Separator {
+        BaseColor {
+        rgb 0.9 0.9 0.9
+        }
+    Cube {
+        width   1000
+        height  1000
+        depth   25
+    }
+    }
+    Separator {
+    Translation {
+        translation 400 432.5 -430
+    }
+    DEF leg+0 Separator {
+        BaseColor {
+        rgb 0 0 0
+        }
+        RotationXYZ {
+        axis    X
+        angle   1.5708
+        }
+        Cylinder {
+        radius  25
+        height  835
+        }
+    }
+    }
+    Separator {
+    Translation {
+        translation -400 432.5 -430
+    }
+    USE leg+0
+    }
+    Separator {
+    Translation {
+        translation 400 -432.5 -430
+    }
+    USE leg+0
+    }
+    Separator {
+    Translation {
+        translation -400 -432.5 -430
+    }
+    USE leg+0
+    }
+    EventCallback {
+    }
+}

@@ -1,0 +1,22 @@
+#Inventor V2.1 ascii
+
+Separator {
+    Material {
+    ambientColor    0.3 0.3 0.3
+    diffuseColor    0.3 0.3 0.3
+    emissiveColor   0.0 0.0 0.0
+    }
+    Translation {
+    translation 0 0 0
+    }
+    Separator {
+        BaseColor {
+        rgb 0.1 0.1 0.9
+        }
+        Cube {
+            width   40
+            height  200
+            depth   40
+        }
+    }
+}
