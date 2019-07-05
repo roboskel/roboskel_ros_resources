@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
   <model name="cooking_pot">
-    <static>true</static>
+    <static>false</static>
     <link name="link">
       <collision name="collision">
         <pose>0 0 0 0 0 0</pose>
