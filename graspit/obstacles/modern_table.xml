@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<root>
+    <material>metal</material>
+    <geometryFile type="Inventor">modern_table.iv</geometryFile>
+</root>
