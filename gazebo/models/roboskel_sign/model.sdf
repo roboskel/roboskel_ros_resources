@@ -1,39 +1,22 @@
 <?xml version="1.0" ?>
-<sdf version="1.5">
+<sdf version="1.6">
   <model name="roboskel_sign">
+    <pose>0 0 0 0 0 0</pose>
     <static>true</static>
     <link name="link">
-      <collision name="collision">
-        <pose>0 0 0.3 0 0 0</pose>
-        <geometry>
-          <mesh>
-            <uri>model://roboskel_sign/meshes/sign.obj</uri>
-          </mesh>
-        </geometry>
-        <surface>
-          <friction>
-            <ode>
-              <mu>1.0</mu>
-              <mu2>1.0</mu2>
-            </ode>
-          </friction>
-          <contact>
-            <ode>
-              <kp>10000000.0</kp>
-              <kd>1.0</kd>
-              <min_depth>0.001</min_depth>
-              <max_vel>0.1</max_vel>
-            </ode>
-          </contact>
-        </surface>
-      </collision>
       <visual name="visual">
-        <pose>0 0 0.3 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://roboskel_sign/meshes/sign.obj</uri>
+            <uri>model://roboskel_sign/meshes/sign.dae</uri>
           </mesh>
         </geometry>
+        <material>
+          <script>
+            <uri>model://roboskel_sign/materials/scripts</uri>
+            <uri>model://roboskel_sign/materials/textures</uri>
+            <name>Number/One</name>
+          </script>
+        </material>
       </visual>
     </link>
   </model>
