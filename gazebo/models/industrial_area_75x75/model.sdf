@@ -32,7 +32,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://industrial_area_75x75/meshes/industrial_area.stl</uri>
+            <uri>model://industrial_area_75x75/meshes/industrial_area.dae</uri>
             <scale>0.25 0.25 0.25</scale>
           </mesh>
         </geometry>
